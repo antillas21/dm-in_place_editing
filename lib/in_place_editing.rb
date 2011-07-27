@@ -19,8 +19,8 @@ module InPlaceEditing
         unless [:post, :put].include?(request.method) then
           return render(:text => 'Method not allowed', :status => 405)
         end
-        @item = object.to_s.camelize.constantize.find(params[:id])
-        @item.update_attribute(attribute, params[:value])
+        @item = object.to_s.camelize.constantize.get(params[:id])
+        @item.update(attribute => params[:value])
         render :text => CGI::escapeHTML(@item.send(attribute).to_s)
       end
     end
