@@ -6,8 +6,8 @@ Gem::Specification.new do |s|
   s.version     = "1.0.0"
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["David Heinemeier Hansson", "Jeremy Kemper", "Jose Fernandez", "Pawel Stradomski"]
-  s.email       = ["mark@amerine.net"]
-  s.homepage    = "https://github.com/amerine/in_place_editing"
+  s.email       = ["antillas21@gmail.com"]
+  s.homepage    = "https://github.com/antillas21/dm-in_place_editing"
   s.summary     = %q{In Place Editing Rails Plugin}
   s.description = %q{In Place Editing Rails Plugin}
 

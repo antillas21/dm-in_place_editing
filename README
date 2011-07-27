@@ -1,6 +1,8 @@
 InPlaceEditing
 ==============
 
+This is a minor modification to make this plugin work with datamapper as ORM.
+
 Example:
 
   # Controller
